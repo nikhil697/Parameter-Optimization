@@ -70,7 +70,8 @@ plt.title('Correlation Heatmap')
 plt.show()
 ```
 
-
-[![Result Table](result_Table.png)]
-[![Result_Graph](result_Graph.png)]
+## Result Table
+![Result Table](Result_Table.png)
+## Result Graph
+![Result_Graph](Result_Graph.png)
 
