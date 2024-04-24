@@ -4,6 +4,14 @@
 
 This report presents a basic analysis of the [Dry Bean Dataset](https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset) (UCI ML Repository ID: 602).
 
+## Methodology
+
+1. **Data Loading**: Load the Dry Bean Dataset using the UCI ML Repository API.
+2. **Data Preprocessing**: Split the dataset into features (X) and target (y). Perform train-test split for model evaluation.
+3. **Model Selection**: Use a Nu-Support Vector Classifier (NuSVC) with Bayesian Optimization to optimize hyperparameters.
+4. **Model Evaluation**: Evaluate the model's accuracy using cross-validation and convergence plots.
+5. **Result Analysis**: Analyze the best hyperparameters and accuracy obtained.
+
 ## Dataset Description
 
 The Dry Bean Dataset contains various attributes of dry beans, including geometric, shape, and texture attributes, which are used to classify the beans into different classes.
@@ -61,4 +69,8 @@ sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f")
 plt.title('Correlation Heatmap')
 plt.show()
 ```
+
+
+[![Result Table](result_table.png)]
+[![Result_Graph](result_graph.png)]
 
